@@ -1,0 +1,139 @@
+/* General Reset and Base */
+body {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+/* Header spacing */
+header {
+  margin-bottom: 2rem;
+}
+
+/* Posts */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  background-color: #fff;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card-img-top {
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+/* Sidebar */
+.card .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.list-group-item {
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.text-black {
+  color: #212529 !important;
+}
+
+/* Post Detail */
+.blog-post-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.blog-post-meta {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.blog-post-content p {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Utility */
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .card-img-top {
+    border-radius: 12px 12px 0 0;
+    height: 200px;
+  }
+
+  .blog-post-title {
+    font-size: 1.5rem;
+  }
+}
