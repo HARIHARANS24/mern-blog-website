@@ -87,22 +87,6 @@ A full-stack blog application built with the MERN stack (MongoDB, Express.js, Re
     └── 📄 posts.js
 ```
 
-## 📊 File Statistics
-
-### Frontend
-- Total Files: 24
-- JavaScript Files: 13
-- CSS Files: 2
-- Configuration Files: 4
-- Public Assets: 4
-- Documentation: 1
-
-### Backend
-- Total Files: 7
-- JavaScript Files: 4
-- Configuration Files: 2
-- Documentation: 1
-
 ## 🚀 Getting Started
 
 ### Prerequisites
