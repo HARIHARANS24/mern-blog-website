@@ -10,7 +10,7 @@ A full-stack blog application built with the MERN stack (MongoDB, Express.js, Re
 - Rich text editor for blog posts
 - Comment system 
 - User profiles
-- Search functionality
+- Search functionality 
  
 ## 🛠️ Tech Stack
 
