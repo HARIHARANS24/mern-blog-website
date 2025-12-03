@@ -7,7 +7,7 @@ A full-stack blog application built with the MERN stack (MongoDB, Express.js, Re
 - User authentication and authorization 
 - Create, read, update, and delete blog posts
 - Responsive design
-- Rich text editor for blog posts
+- Rich text editor for blog posts 
 - Comment system 
 - User profiles
 - Search functionality 
