@@ -12,7 +12,7 @@ A full-stack blog application built with the MERN stack (MongoDB, Express.js, Re
 - User profiles
 - Search functionality  
    
-## 🛠️ Tech Stack 
+## 🛠️ Tech Stack  
 
 - **Frontend**: React.js, Material-UI, Redux
 - **Backend**: Node.js, Express.js
