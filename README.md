@@ -22,69 +22,49 @@ A full-stack blog application built with the MERN stack (MongoDB, Express.js, Re
 ## 📁 Project Structure
 
 ```
-📦 mern-blog-website/
-├── 📄 LICENSE.txt
-├── 📄 README.md
-├── 📂 blog-frontend/
-└── 📂 blog-backend/
-```
-
-## 📂 Complete File Listing
-
-### Frontend (blog-frontend/)
-```
-📂 blog-frontend/
-├── 📄 package.json
-├── 📄 package-lock.json
-├── 📄 README.md
-├── 📄 .gitignore
-│
-├── 📂 public/
-│   ├── 📄 index.html
-│   ├── 📄 favicon.ico
-│   ├── 📄 manifest.json
-│   └── 📄 robots.txt
-│
-└── 📂 src/
-    ├── 📄 App.js
-    ├── 📄 App.css
-    ├── 📄 App.test.js
-    ├── 📄 index.js
-    ├── 📄 index.css
-    ├── 📄 logo.svg
-    ├── 📄 reportWebVitals.js
-    ├── 📄 setupTests.js
-    │
-    ├── 📂 components/
-    │   ├── 📄 Footer.js
-    │   ├── 📄 Header.js
-    │   └── 📄 Post.js
-    │
-    └── 📂 pages/
-        ├── 📄 About.js
-        ├── 📄 CategoryPosts.js
-        ├── 📄 Contact.js
-        ├── 📄 Home.js
-        ├── 📄 PostDetail.js
-        ├── 📄 PostList.js
-        ├── 📄 Privacy.js
-        └── 📄 Terms.js
-```
-
-### Backend (blog-backend/)
-```
-📂 blog-backend/
-├── 📄 package.json
-├── 📄 package-lock.json
-├── 📄 server.js
-│
-├── 📂 models/
-│   ├── 📄 Category.js
-│   └── 📄 Post.js
-│
-└── 📂 routes/
-    ├── 📄 categories.js
-    └── 📄 posts.js
+Directory structure:
+└── hariharans24-mern-blog-website/
+    ├── README.md
+    ├── LICENSE
+    ├── blog-backend/
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   ├── server.js
+    │   ├── models/
+    │   │   ├── Category.js
+    │   │   └── Post.js
+    │   └── routes/
+    │       ├── categories.js
+    │       └── posts.js
+    └── blog-frontend/
+        ├── README.md
+        ├── package-lock.json
+        ├── package.json
+        ├── public/
+        │   ├── index.html
+        │   ├── manifest.json
+        │   └── robots.txt
+        └── src/
+            ├── App.css
+            ├── App.js
+            ├── App.test.js
+            ├── index.css
+            ├── index.js
+            ├── reportWebVitals.js
+            ├── setupTests.js
+            ├── components/
+            │   ├── Footer.js
+            │   ├── Header.js
+            │   └── Post.js
+            └── pages/
+                ├── About.js
+                ├── CategoryPosts.js
+                ├── Contact.js
+                ├── Home.js
+                ├── PostDetail.js
+                ├── PostList.js
+                ├── Privacy.js
+                └── Terms.js
 ```
 
 ## 🚀 Getting Started
